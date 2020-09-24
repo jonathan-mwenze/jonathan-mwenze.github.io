@@ -1,0 +1,119 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+    background: url(https://images.pexels.com/photos/3118214/pexels-photo-3118214.jpeg?cs=srgb&dl=pexels-oladimeji-ajegbile-3118214.jpg&fm=jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+}
+
+hr{
+	margin-top: 10px;
+	border-width: 3px;
+	max-width: 65px;
+	border-color:white;
+}
+
+.logo{
+	color: white;
+}
+h1{
+	padding-top: 55px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 3rem;
+	animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    color: white;
+}
+
+p{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  animation: backInRight;
+  animation-duration: 2s;
+}
+
+
+.separate{
+	height: 10rem;
+}
+
+.btn-primary{
+	padding: 1rem 2rem;
+	background-color: #4A0E50;
+	border-color: #4A0E50;
+	border-radius: 300px;
+	font-weight: 700;
+}
+
+.btn-primary:hover{
+  color:white;
+  background-color:#3C0B40;
+  border-color: #3C0B40;
+  box-shadow: 5px 3px 5px #888888;
+  height: 53px;
+}
+
+.btn-success{
+	/*background-color: #e1ad01;*/
+	border-color: #e1ad01;
+	border-radius: 300px;
+	margin: 7px 5px 5px 5px;
+}
+
+.whatsapp{
+	background-color: #25d366;
+	border-color: #25d366;
+}
+
+.facebook{
+	background-color: #3b5998;
+	border-color: #3b5998;
+}
+
+.twitter{
+   background-color: #00ACEE;
+   border-color: #00ACEE;
+}
+
+.reve{
+	color: black;
+}
+.btn-success:hover{
+	background-color: #4A0E50;
+	border-color: #4A0E50;
+	height: 38px;
+	box-shadow: 5px 3px 5px #888888;
+}
+
+.contact{
+	position: fixed;
+    top: 80%;
+    left: 30%;
+	padding-top: 30px;
+}
+
+span{
+	color: ##4A0E50;
+}
+.fa{
+	margin-right: 4px;
+}
+.navbar{
+    /*background-color: #F8F8F8;*/
+    background-color: #4A0E50;
+    border-color: #E7E7E7;
+}
+
+.nav-link{
+	color: white;
+}
+
+.nav-link:hover{
+	color: yellow;
+}
